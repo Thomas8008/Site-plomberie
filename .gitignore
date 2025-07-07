@@ -1,0 +1,14 @@
+# Ignore tout
+*
+
+# Sauf le dossier public
+!public/
+!public/**
+
+# Garde ce fichier ignore lui-même
+!.gitignore
+
+# Toujours ignorer :
+.env
+node_modules/
+package-lock.json
